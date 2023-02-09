@@ -17,6 +17,7 @@ jobs:
       run: ./scripts/install-dependencies.sh
 
     - name: Build
+    export GOPATH=$HOME/go
       run: go build -v ./...
 
     - name: Test
