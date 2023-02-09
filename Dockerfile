@@ -8,7 +8,7 @@ RUN apt-get update && \
 
 RUN apt-get update && \
     apt-get install --no-install-recommends -y git tclsh pkg-config cmake libssl-dev build-essential ninja-build && \
-    git clone --depth 1 --branch v1.5.0 https://github.com/Haivision/srt.git libsrt && \
+    git clone https://github.com/Haivision/srt.git libsrt && \
     cmake -S libsrt -B libsrt-build -G Ninja && \
     ninja -C libsrt-build && \
     ninja -C libsrt-build install && \
@@ -26,7 +26,7 @@ RUN GOOS=linux GOARCH=amd64 go build -ldflags="-w -s" -v -o srtrelay .
 FROM debian:bullseye
 RUN apt-get update && \
     apt-get upgrade -y && \
-    apt-get install --no-install-recommends -y libssl1.1 && \
+    apt-get install --no-install-recommends -y libssl-dev && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 RUN useradd -l -m -r srtrelay
