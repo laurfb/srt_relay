@@ -11,13 +11,12 @@ jobs:
     - name: Set up Go
       uses: actions/setup-go@v2
       with:
-        go-version: 1.6
+        go-version: 1.8
 
     - name: Install dependencies
       run: ./scripts/install-dependencies.sh
 
     - name: Build
-    export GOPATH=$HOME/go
       run: go build -v ./...
 
     - name: Test
