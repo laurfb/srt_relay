@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/voc/srtrelay/relay"
+	"github.com/laurfb/srt_relay/relay"
 )
 
 func compareStats(got, expected []*relay.StreamStatistics) error {
