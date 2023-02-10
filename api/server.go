@@ -8,8 +8,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/voc/srtrelay/config"
-	"github.com/voc/srtrelay/srt"
+	"github.com/laurfb/srt_relay/config"
+	"github.com/laurfb/srt_relay/srt"
 )
 
 // Server serves HTTP API requests
