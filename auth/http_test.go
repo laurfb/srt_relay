@@ -5,7 +5,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/voc/srtrelay/stream"
+	"github.com/laurfb/srt_relay/stream"
 )
 
 func serverMock() *httptest.Server {
