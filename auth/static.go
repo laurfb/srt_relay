@@ -1,7 +1,7 @@
 package auth
 
 import (
-	"github.com/voc/srtrelay/stream"
+	"github.com/laurfb/srt_relay/stream"
 )
 
 type StaticAuth struct {
