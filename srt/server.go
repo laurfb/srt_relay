@@ -13,10 +13,10 @@ import (
 	"sync"
 
 	"github.com/haivision/srtgo"
-	"github.com/voc/srtrelay/auth"
-	"github.com/voc/srtrelay/format"
-	"github.com/voc/srtrelay/relay"
-	"github.com/voc/srtrelay/stream"
+	"github.com/laurfb/srt_relay/auth"
+	"github.com/laurfb/srt_relay/format"
+	"github.com/laurfb/srt_relay/relay"
+	"github.com/laurfb/srt_relay/stream"
 )
 
 const (
