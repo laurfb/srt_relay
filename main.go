@@ -11,10 +11,10 @@ import (
 	"syscall"
 
 	"github.com/haivision/srtgo"
-	"github.com/voc/srtrelay/api"
-	"github.com/voc/srtrelay/config"
-	"github.com/voc/srtrelay/relay"
-	"github.com/voc/srtrelay/srt"
+	"github.com/laurfb/srt_relay/api"
+	"github.com/laurfb/srt_relay/config"
+	"github.com/laurfb/srt_relay/relay"
+	"github.com/laurfb/srt_relay/srt"
 )
 
 func handleSignal(ctx context.Context, cancel context.CancelFunc) {
