@@ -1,7 +1,7 @@
 package format
 
 import (
-	"github.com/voc/srtrelay/mpegts"
+	"github.com/laurfb/srt_relay/mpegts"
 )
 
 // TransportType type
