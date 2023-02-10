@@ -3,7 +3,7 @@ package auth
 import (
 	"testing"
 
-	"github.com/voc/srtrelay/stream"
+	"github.com/laurfb/srt_relay/stream"
 )
 
 func TestStaticAuth_Authenticate(t *testing.T) {
