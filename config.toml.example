@@ -4,9 +4,9 @@
 # The first address listed here will be used to generate the listen-URL you can request by the API.
 # However, you can use whatever address you specified here to listen to a stream. Or just reorder the list.
 # listen on all addresses
-#addresses = [":1337"]
+addresses = [":1337"]
 # listen on localhost
-addresses = ["localhost:1337"]
+#addresses = ["localhost:1337"]
 
 # Set public address for use in API responses
 # by default local FQDN + listen address port is used
@@ -16,7 +16,7 @@ addresses = ["localhost:1337"]
 # This should be a multiple of your expected RTT because SRT needs some time
 # to send and receive acknowledgements and retransmits to be effective.
 # The recommended latency is about ~2.5x RTT.
-#latency = 200
+latency = 200
 
 # Relay buffer size in bytes, 384000 -> 1 second @ 3Mbits
 # This determines the maximum delay tolerance for connected clients.
@@ -48,7 +48,7 @@ addresses = ["localhost:1337"]
 [auth]
 # Choose between available auth types (static and http)
 # for further config options see below
-#type = "static"
+type = "static"
 
 [auth.static]
 # Streams are authenticated using a static list of allowed streamids
