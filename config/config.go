@@ -10,7 +10,7 @@ import (
 
 	"github.com/Showmax/go-fqdn"
 	"github.com/pelletier/go-toml"
-	"github.com/voc/srtrelay/auth"
+	"github.com/laurfb/srt_relay/auth"
 )
 
 type Config struct {
