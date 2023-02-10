@@ -4,7 +4,7 @@
 # The first address listed here will be used to generate the listen-URL you can request by the API.
 # However, you can use whatever address you specified here to listen to a stream. Or just reorder the list.
 # listen on all addresses
-addresses = [":1337"]
+addresses = [":1935"]
 # listen on localhost
 #addresses = ["localhost:1337"]
 
