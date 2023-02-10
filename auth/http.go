@@ -6,7 +6,7 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/voc/srtrelay/stream"
+	"github.com/laurfb/srt_relay/stream"
 )
 
 type httpAuth struct {
