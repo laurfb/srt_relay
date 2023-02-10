@@ -48,7 +48,7 @@ latency = 200
 [auth]
 # Choose between available auth types (static and http)
 # for further config options see below
-type = "static"
+# type = "static"
 
 [auth.static]
 # Streams are authenticated using a static list of allowed streamids
