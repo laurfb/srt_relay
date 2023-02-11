@@ -1,6 +1,6 @@
 module github.com/laurfb/srt_relay
 
-go 1.12
+go 1.20
 
 require (
 	github.com/Showmax/go-fqdn v1.0.0 // indirect
