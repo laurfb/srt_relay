@@ -106,7 +106,8 @@ func Parse(paths []string) (*Config, error) {
 
 	// try to read file from given paths
 	for _, path := range paths {
-		data, err = ioutil.ReadFile(path)
+		//***data, err = ioutil.ReadFile(path)
+		data, err = os.ReadFile(path)
 		if err == nil {
 			log.Println("Read config from", path)
 			break
