@@ -24,7 +24,7 @@ WORKDIR /build
 RUN GOOS=linux GOARCH=amd64 go build -ldflags="-w -s" -v -o srtrelay .
 
 # clean start
-FROM debian:latest
+FROM debian:12.6
 RUN apt-get update && \
     apt-get upgrade -y && \
     apt-get install --no-install-recommends -y libssl-dev && \
